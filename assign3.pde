@@ -196,6 +196,7 @@ void mouseClicked(){
        setBombs();
        drawEmptySlots();
        gameState = GAME_RUN;
+       slotState=SLOT_OFF;
   }
 }
 
